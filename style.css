@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+}
+.mainContainer {
+  height: 700px;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.nav {
+  height: 100%;
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.upperNav {
+  height: 25%;
+  width: 100%;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+}
+.middelNav {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+}
+.lowerNav {
+  height: 25%;
+  width: 100%;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  flex-direction: column;
+}
+.Landing {
+  height: 100%;
+  width: 80%;
+}
+li {
+  margin-top: 15px;
+}
+.social {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.btn {
+  height: 60%;
+  width: 100%;
+}
+img {
+  height: 50%;
+  width: 50%;
+}
+.hide {
+  display: none;
+}
+
+.myDIV:hover .hide {
+  display: block;
+}
+
+.container button {
+  display: none;
+}
+
+.container:hover button {
+  display: block;
+}
